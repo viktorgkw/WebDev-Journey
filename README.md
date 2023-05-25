@@ -10,7 +10,7 @@ In the navigation below you can find links to each projects and brief info about
 
 | Name |  Center  |
 |------|----------|
-| **[BogusData](https://github.com/viktorgkw/WebDev-Journey/tree/main/BogusData)** | **Simple Blazor app using Bogus to generate fake data** |
+| **[BogusData](https://github.com/viktorgkw/WebDev-Journey/tree/master/BogusDataApp)** | **Simple Blazor app using Bogus to generate fake data** |
 
 ## Technologies 💻
 

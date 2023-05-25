@@ -1,0 +1,43 @@
+﻿@page "/people"
+@inject DataGenerator dataGen
+
+<h3>People</h3>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>UserName</th>
+			<th>Email</th>
+			<th>PhoneNumber</th>
+			<th>Password</th>
+			<th>IsAdult</th>
+			<th>AccountQuality</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var acc in accounts)
+		{
+			<tr>
+				<td>@acc.Id</td>
+				<td>@acc.UserName</td>
+				<td>@acc.Email</td>
+				<td>@acc.PhoneNumber</td>
+				<td>@acc.Password</td>
+				<td>@acc.IsAdult</td>
+				<td>@acc.AccountQuality</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<button type="button" class="btn btn-outline-success" @onclick="LoadAccounts">
+	Accounts++
+</button>
+
+@code {
+	List<AccountModel> accounts = new();
+
+	private void LoadAccounts()
+		=>	accounts.AddRange(dataGen.GenerateAccounts().Take(5));
+}

@@ -17,4 +17,8 @@ In the navigation below you can find links to each projects and brief info about
 - **.NET**
 - **Blazor**
 
+## NuGet Packages 📦
+
+- **Bogus**
+
 ## Thanks for checking out the repository! 💚

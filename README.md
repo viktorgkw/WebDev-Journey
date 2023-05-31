@@ -11,6 +11,7 @@ In the navigation below you can find links to each projects and brief info about
 | Name |  Center  |
 |------|----------|
 | **[BogusData](https://github.com/viktorgkw/WebDev-Journey/tree/master/BogusDataApp)** | **Simple Blazor app using Bogus to generate fake data** |
+| **[ExceptionHandler](https://github.com/viktorgkw/WebDev-Journey/tree/master/ExceptionHandler)** | **Simple WebAPI with exception handling middleware.** |
 
 ## Technologies 💻
 

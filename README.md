@@ -20,5 +20,6 @@ In the navigation below you can find links to each projects and brief info about
 ## NuGet Packages 📦
 
 - **Bogus**
+- **HealthChecks**
 
 ## Thanks for checking out the repository! 💚
